@@ -829,4 +829,5 @@ else:
         for c_name, s, f, h in records:
             if today == datetime.strptime(s, "%Y-%m-%d").date():
                 st.warning(f"Sowing Reminder for {c_name}")
-                play_sound()  knowledge base add more
+
+                play_sound()  
